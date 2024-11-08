@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"></head>
+</head>
+<body>
+    <header class="header">
+        <section class = "header-section">
+            <a href = "index.html"><img class = "logo" src="img/logo.png" alt="logo"></a>
+            <nav class = "nav-flex">
+                <a class="nav-btn" href="index.html">Home</a>
+                <a class="nav-btn" href="gallery.html">Gallery</a>
+                <a class="nav-btn" href="contact.html">Contact us</a>
+            </nav>
+        </section>
+    </header>
+    <main class="contact-main">
+        <section class="form-section">
+            <form class="form">
+                <label class="label" for="email">Email: </label>
+                <input class="input-field" type="text" id="email" placeholder="something@mail.com" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
+                <label class="label" for="select">Topic: </label>
+                <select class="input-field" id="select">
+                    <option value="uno">Adoption!</option>
+                    <option value="dos">Go for a walk!</option>
+                    <option value="tres">Other</option>
+                </select>
+                <label class="label" for="email">Message: </label>
+                <textarea class="input-field" rows="5" cols="50" id="message" placeholder="Write your message here.." required></textarea>
+                <input class="nav-btn form-button" type="submit">
+            </form>
+        </section>
+    </main>
+    <footer class="footer"> 
+        <section class="footer-section shadow">
+            <a href = "index.html"><img class = "logo" src="img/logo.png" alt="logo"></a>
+            <p class="footer-text">Łukasz Krementowski</p>
+            <a class="footer-link" href="https://github.com/Krzeselkoo" target="_blank">My Github Page</a>
+        </section>
+    </footer>
+</body>
+</html>
